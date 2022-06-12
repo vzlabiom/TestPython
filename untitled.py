@@ -55,7 +55,7 @@ class Ui_MainWindow(object):
     def btn2_clicked(self):
         self.textEdit.setStyleSheet("color:purple")  #.textColor(self.) .setText(self, 'push but 2 clicked')
         self.label.setText('label by push')
-        self.pushButton.setText('click me')
+        #self.pushButton.setText('click me')
 
     def btn1_clicked(self):
         self.textEdit.setText("push but 2 clicked")
